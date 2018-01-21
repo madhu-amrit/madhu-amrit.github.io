@@ -28,13 +28,44 @@
 			.ibg-bg {
 				position: absolute;
 			}
+
+ @media only screen and (max-width: 400px) {
+		    .animation{
+			    width: 60%; 
+			    height: 50%;
+			    display: block;
+			    margin: auto;
+			    vertical-align: auto;
+			    padding-top: 100%;
+			    padding-bottom: 90%;
+			    
+				
+			    
+			  }
+
 			.animation{
 			    width: 20%; 
 			    height: 20%;
 			    display: block;
 			    margin: auto;
 			    vertical-align: auto;
-			    
+			    padding-top: 10%;
+			    padding-bottom: 40%;
 			    
 			  }
+			  
+			 
+}
+			  @media only screen and (max-width: 768px) {
+		    .animation{
+			    width: 50%; 
+			    height: 50%;
+			    display: block;
+			    margin: auto;
+			    vertical-align: auto;
+			    padding-top:30%;
+			    padding-bottom: 60%;
+			    
+			  }
+}
 			 
