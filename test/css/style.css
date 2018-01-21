@@ -1,0 +1,40 @@
+
+
+			body {
+				background-attachment: fixed;
+				padding: 0;
+				text-align: center;
+				font-family: 'open sans';
+				position: relative;
+				margin: 0;
+				height: 100%;
+			}
+
+			.wrapper {
+				height: auto !important;
+				height: 100%;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+
+			.bg {
+				position: fixed;
+				min-height: 100% !important;
+				width: 100%;
+				z-index: 0;
+				background-attachment: fixed;
+			}
+
+			.ibg-bg {
+				position: absolute;
+			}
+			.animation{
+			    width: 20%; 
+			    height: 20%;
+			    display: block;
+			    margin: auto;
+			    vertical-align: auto;
+			    
+			    
+			  }
+			 
