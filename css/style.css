@@ -29,7 +29,20 @@
 				position: absolute;
 			}
 
- @media only screen and (max-width: 400px) {
+
+
+			.animation{
+			    width: 20%; 
+			    height: 20%;
+			    display: block;
+			    margin: auto;
+			    vertical-align: auto;
+			    padding-top: 10%;
+			    padding-bottom: 40%;
+			    
+			  }
+			  
+			  @media only screen and (max-width: 320px) {
 		    .animation{
 			    width: 60%; 
 			    height: 50%;
@@ -43,18 +56,6 @@
 			    
 			  }
 
-			.animation{
-			    width: 20%; 
-			    height: 20%;
-			    display: block;
-			    margin: auto;
-			    vertical-align: auto;
-			    padding-top: 10%;
-			    padding-bottom: 40%;
-			    
-			  }
-			  
-			 
 }
 			  @media only screen and (max-width: 768px) {
 		    .animation{
