@@ -147,7 +147,7 @@
 
 }(window.jQuery);
 
-
+//end of this function
 $(document).ready(function() {
 				$(".bg").interactive_bg();
 				$("#btns").interactive_bg({
