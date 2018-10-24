@@ -45,7 +45,31 @@
 
         #descrip{
           
-          padding-left:20px;
+          padding-left: 20px;
+          margin-bottom: 10px;
+        }
+         .quote{
+        color:white;
+        text-align:center;
+        position: relative;
+        margin-bottom: 10px;
+        }
+
+        .quote p{
+          font-size: 22px;
+        }
+
+        .cred{
+          color: white;
+          font-size: 15px;
+          background-color: ;
+          text-align: center;
+          width: 100px;
+          height: 30px;
+          position: relative;
+          left: 70%;
+          bottom:0;
+
         }
     </style>
     
@@ -53,7 +77,20 @@
     <div id="head">[[prop1]]</div>
 <p id="descrip">Motivational quotes for all, read, understand , apply, see the magic!</p>
 
+<div>
+  
+<template is="dom-repeat"  items="[[homedata]]">
+<paper-card class="card">
 
+<div class="quote">
+<p>[[item.quote]]</p>
+</div>
+<div class="cred">--[[item.by]]</div>
+
+</paper-card>
+</template>
+
+</div>
 
 
 
