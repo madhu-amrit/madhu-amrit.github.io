@@ -1,0 +1,72 @@
+
+
+			body {
+				background-attachment: fixed;
+				padding: 0;
+				text-align: center;
+				font-family: 'open sans';
+				position: relative;
+				margin: 0;
+				height: 100%;
+			}
+
+			.wrapper {
+				height: auto !important;
+				height: 100%;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+
+			.bg {
+				position: fixed;
+				min-height: 100% !important;
+				width: 100%;
+				z-index: 0;
+				background-attachment: fixed;
+			}
+
+			.ibg-bg {
+				position: absolute;
+			}
+
+
+
+			.animation{
+			    width: 20%; 
+			    height: 20%;
+			    display: block;
+			    margin: auto;
+			    vertical-align: auto;
+			    padding-top: 10%;
+			    padding-bottom: 40%;
+			    
+			  }
+			  
+			  @media only screen and (max-width: 320px) {
+		    .animation{
+			    width: 60%; 
+			    height: 50%;
+			    display: block;
+			    margin: auto;
+			    vertical-align: auto;
+			    padding-top: 100%;
+			    padding-bottom: 90%;
+			    
+				
+			    
+			  }
+
+}
+			  @media only screen and (max-width: 768px) {
+		    .animation{
+			    width: 50%; 
+			    height: 50%;
+			    display: block;
+			    margin: auto;
+			    vertical-align: auto;
+			    padding-top:30%;
+			    padding-bottom: 60%;
+			    
+			  }
+}
+			 
