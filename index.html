@@ -1,59 +1,30 @@
-<!DOCTYPE html>
-<html lang="en" >
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>motivquotes</title>
+    <meta name="description" content="daily quotes">
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="/manifest.json">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     
+    <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <link rel="import" href="/src/m-app/m-app.html">
+  </head>
+
+  <style>
+      body{
+            background-color:#e3e3e3;  
+            font-family: 'Quicksand', sans-serif;
+         } 
+
+  </style>
   
-  <title>Vidyut</title>
-  
-  
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
-<body>
-	<div id="preloader" class="animation">
-    <img src="../images/preloader.svg" alt="animation">
-  </div>
-
-  <div class="wrapper bg" data-ibg-bg="../images/banner3.jpg"></div>
-
-
-
-
-
-
-
-
-
-
-
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
-	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-
-    <script  src="js/index.js"></script>
-	<script>
-
-  	jQuery(document).ready(function($) {  
-
-	$(window).load(function(){
-		$('#preloader').fadeOut('slow',function(){$(this).remove();});
-	});
-
-	});
-  </script>
-
-
-
-</body>
-
+  <body>
+    <m-app></m-app>
+  </body>
 </html>
