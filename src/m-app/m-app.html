@@ -1,6 +1,8 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../../bower_components/iron-swipeable-container/iron-swipeable-container.html">
 <link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+
 
 <dom-module id="m-app">
   <template>
@@ -46,7 +48,7 @@
         #descrip{
           
           padding-left: 20px;
-          margin-bottom: 10px;
+          margin-bottom: 30px;
         }
          .quote{
         color:white;
@@ -73,6 +75,14 @@
         }
     </style>
     
+<iron-ajax 
+    auto
+    url="/data/quotes.json"
+    handle-as="json"
+    last-response="{{homedata}}">
+  
+</iron-ajax>
+
 
     <div id="head">[[prop1]]</div>
 <p id="descrip">Motivational quotes for all, read, understand , apply, see the magic!</p>
