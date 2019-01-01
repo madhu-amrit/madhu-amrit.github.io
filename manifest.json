@@ -1,7 +1,0 @@
-{
-  "name": "motivquotes",
-  "short_name": "motivquotes",
-  "description": "daily quotes",
-  "start_url": "/",
-  "display": "standalone"
-}

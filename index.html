@@ -1,30 +1,31 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html><html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>motivquotes</title>
-    <meta name="description" content="daily quotes">
+    <title>northtable</title>
+    <meta name="description" content="Catering menu">
 
     <!-- See https://goo.gl/OOhYW5 -->
     <link rel="manifest" href="/manifest.json">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    
-    <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Quicksand" rel="stylesheet">
 
-    <link rel="import" href="/src/m-app/m-app.html">
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module" src="/src/northtable-app/northtable-app.js"></script>
   </head>
-
-  <style>
-      body{
-            background-color:#e3e3e3;  
-            font-family: 'Quicksand', sans-serif;
-         } 
-
-  </style>
-  
   <body>
-    <m-app></m-app>
-  </body>
-</html>
+    <style type="text/css">
+      .main{
+        font-family: 'Indie Flower', cursive;
+        font-family: 'Quicksand', sans-serif;
+      }
+      body{
+        background-color:hsl(120, 6%, 94%);
+        
+
+      }
+    </style>
+    <northtable-app class="main"></northtable-app>
+  
+
+</body></html>
